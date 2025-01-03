@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Startscreen2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F4511E"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="160sp"
+            app:srcCompat="@drawable/hatikuning" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25sp"
+            android:text="Nikmati hari mu mulai dari makananmu"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnmkn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="25sp"
+            android:backgroundTint="#FDD835"
+            android:foregroundGravity="center_vertical|center"
+            android:text="Log in"
+            android:textAlignment="center"
+            android:textColor="#F4511E" />
+
+        <Button
+            android:id="@+id/btnsign"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5sp"
+            android:backgroundTint="#FBEDAD"
+            android:foregroundGravity="center_vertical|center"
+            android:text="Sign Up"
+            android:textAlignment="center"
+            android:textColor="#F4511E" />
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
